@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.toopbar{
+    background-color: rgba(0, 0, 255, 0.590);
+    padding: 0px;
+    color: white;
+    height: 70px; 
+}
+.toop{
+    border: 2px solid red;
+    height: 50px;
+    margin: 0px;
+}
+.socio{
+    margin-top: 10px;
+    margin: 15px;
+    height: 10px;
+    display: inline-block;
+}
+.moto{
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center;
+    height: 0px;
+    display: inline-block;
+    font-size: 13px;
+}
+.btn{
+    margin-top: 10px
+    padding-top: 0px;
+    padding-left: 800;
+    padding:10px;
+}
+.header-menu{
+    position: sticky;
+    top: 0; 
+}
+.logo{
+    display: inline-block;
+}
+.menu{
+    display: inline-block;
+    margin: -5px;
+    padding-right: -5px;
+    margin-top: 5px;   
+}
+.menu ul{
+    list-style-type: none;
+    margin-top: 0.5px;
+    margin-right: 0px;
+    text-align: center;
+    color: cadetblue;
+}
+.menu ul li{
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    padding-left:0px;
+    line-height:35px;
+    float: left;
+    position: relative;
+    border-radius: 120px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu ul li .s{
+    width: 65px;
+    margin: 0px;
+    padding-left: 0px;
+    line-height:35px;
+    float: left;
+    position: relative;
+    border-radius: 65px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.menu ul li a:hover{
+    background-color: rgba(0, 0, 255, 0.590);
+    border-radius: 85px;
+    font-weight: bold;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    margin-right: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu ul li:hover >ul{
+    display: block;
+}
+.menu ul li .s{
+    background-color:white;
+    width: 65px;
+    margin: 0px;
+    padding-left: 0px;
+    line-height:35px;
+    float: left;
+    position: relative;
+    border-radius: 80px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.menu ul li a:hover{
+    background-color: rgba(0, 0, 255, 0.590);
+    border-radius: 85px;
+    font-weight: bold;
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+    margin-right: 20px;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+}
+
+.menu ul li:hover >ul{
+    display: block;
+    width: auto;
+}
+.menu ul ul ul{
+    margin-left: 80px;
+    top: 0px;
+    width: 90px;
+    margin-right: 80px;
+    padding: 20px;
+    padding-top: 0px;
+    width: auto;
+}
+.saylani 1{
+    transition: transform 2s ease;
+    opacity :5s ease-out;
+}
+.saylani 2{
+    transition: transform 2s ease;
+    opacity :5s ease-out;
+}
+saylani 3{
+    transition: transform 2s ease;
+    opacity :5s ease-out;
+}
+.M{
+    width: 900px;
+}
+.p{
+    text-align: justify;
+    margin: 120px;
+    margin-top: -25px;
+    width: 600;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    padding: 0px;
+    color:  rgba(0, 0, 255, 0.590);
+}
+.green{
+    color: green;
+} 
+.blue{
+    color:blue;
+} 
+.I{
+    padding-top: 0px;
+    margin-top: 50px;
+}
+.sun{
+    text-align: center;
+   
+}
+.gr{
+    color: green;
+    height: 15px;
+}
+.geo{
+    text-align: center;
+    margin: 50px 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.new{
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 20px;
+    width: 1000px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.590);
+    text-align: center;
+    height: 400px;
+}
+.text center{
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.590);
+    color: white;
+    display: inline-block;
+}
+h2{
+    color: black
+}
+.counter{
+    background-color: rgba(0, 0, 255, 0.590);
+    text-align: center;
+    height: 380px;
+    padding-top: 100px;
+    width: 1600px;    
+}
+
+.container counter .col-3{
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0)
+}
+.numb{
+    font-weight: 900;
+    color: white;
+}
+.bg-silver-light-border-1px{
+    background-color: whitesmoke;
+    color: rgba(0, 0, 255, 0.590);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.25px);
+    transition: step-start;
+}
+.section-content{
+    border:2px solid white;
+    height: 400px;
+    width: 850px;
+    display: inline-block;
+    padding: 0px;  
+}
+.col-md-5{
+    background-color: whitesmoke;
+    color:  rgba(0, 0, 255, 0.590);
+    text-align: center;
+    margin-top: 50px;
+    height: 80px;
+    font-family: sans-serif;
+    font-weight: ;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    position: relative;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.25px);
+}
+h2{
+    color: rgba(68, 0, 255, 0.671);
+} 
+.up{
+    display: inline-block;
+    width: 320px;
+    color:  rgba(0, 0, 255, 0.590);
+}
+.mar-d{
+    height: 250px;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+}  
+td{
+    display: inline-block;
+    flex-wrap: wrap;   
+}
+
+.hap{
+   border: 2px solid red;
+   height: 60px;
+   width: 200px;
+   margin-right: 45px;
+   margin-top: 50px;
+   flex: auto;
+}
+.ho{
+    border: 2px solid red;
+    height: 60px;
+    width: 200px;
+    display: inline-block;  
+}
+.it{
+    border: 2px solid red;
+    height: 60px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.rt{
+    border: 2px solid red;
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+ }
+.line{
+    color: white;
+    opacity: 1px;
+    height: 900px;   
+}
+.gl{
+    border: 1px solid white;
+    position: relative;
+    display: inline-block;
+}
+.img hover :hover{
+    background-color: whitesmoke;
+} 
+.overlay{
+    position: absolute;
+    transition: all 3ease;
+    opacity: 0;
+    background-color: whitesmoke;
+}
+.container 1:hover .overlay{
+    opacity: 1;
+} 
+.overlayleft{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+.container 1:hover .overlaytop{
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+    padding: 50px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.add{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.link{
+    margin-top: -20px;
+    padding-top: 0px;
+}
+.contact{
+    margin-top: -70px;
+    padding-top: 0px
+    display: inline-block;
+} 
+.socio f{
+    justify-content: space-between;
+}
+.footer-bottom{
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    line-height: 15px;
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: smaller;
+}
+.imageup{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.imageup hover :hover{
+    background-color:grey
+} 
+
+
+
+
+
+
